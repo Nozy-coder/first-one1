@@ -1,0 +1,60 @@
+
+body{
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 24px 0px;
+    width: 1440px;
+    height: 1080px;
+
+
+}
+
+p{  font-size: 24px;
+    padding-left: 3em;
+    padding-top: 2em;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    padding-left: 3em;
+    height: 480px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+#good{
+    background-color: rgb(46, 46, 46);
+    color: aliceblue;
+    width: 200px;
+    height: 70px;
+}
+
+.first{
+    padding-top: 10em;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+li{
+    list-style: none;
+    height: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.box1{
+    font-size:65px;
+    font-family: monospace;
+    font-weight: 1000;
+    color:rgb(37, 37, 37)
+}
+.box2{
+    padding-top: 170px;
+    font-family: monospace;
+    color:rgb(61, 61, 63);
+    padding-right: 300px;
+    font-size: 27px
+}
+.box3{
+    padding-top:100px;
+    
+}
